@@ -19,6 +19,6 @@ goal_slider = st.slider('Nombre de but à étudier')
 st.write(goal_slider)
 
 data_goal = pd.DataFrame(data=dataframe, columns= ["Goals scored"])
-data_goal = data_goal[data_goal['Goals scored'] = 5 ]
+# data_goal = data_goal[data_goal['Goals scored'] = 5 ]
 
 st.line_chart(data_goal)
